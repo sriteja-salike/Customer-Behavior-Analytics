@@ -43,6 +43,21 @@ The dataset is heavily skewed toward repeat and loyal buyers.
 ### Age Group Contribution
 - **Young Adults** contribute the highest revenue at **$62,143**.
 
+### Revenue Concentration Across Top Spender Tiers
+- The top **10%** of customers generate **16.1%** of revenue.
+- The top **20%** generate **31.0%**, the top **30%** generate **44.5%**, and the top **50%** generate **67.2%**.
+- Distribution is relatively flat — no strong 80/20 effect — suggesting revenue is broadly spread rather than concentrated in a small high-value segment.
+
+### Product-Level Sales Dependency on Discounts
+- **19 of 25 products (76%)** have over **40%** of their sales tied to discounts.
+- Most discount-reliant items: **Hat (50.0%)**, **Sneakers (49.7%)**, **Coat (49.1%)**, **Sweater (48.2%)**, **Pants (47.4%)**.
+- Least discount-reliant: **Socks (32.7%)**, **Blouse (33.9%)**, **Sandals (36.9%)** — flagging pricing-strategy risk across most of the catalog.
+
+### Subscriber vs. Non-Subscriber Discount Reliance
+- **100%** of subscriber purchases use a discount, vs. only **21.9%** for non-subscribers.
+- Despite full discount usage, subscribers spend **slightly less on average ($59.49 vs. $59.87)**.
+- The loyalty program drives no observable spend lift — its value is almost entirely discount-based.
+
 ---
 
 ## 📈 Work Performed
@@ -61,6 +76,9 @@ Performed advanced SQL analysis to answer key business questions:
 - Identified high-spending discount users  
 - Compared performance across shipping types  
 - Determined discount-dependent products  
+- Quantified revenue concentration across top spender tiers  
+- Measured product-level sales dependency on discounts  
+- Compared discount reliance between subscribers and non-subscribers  
 
 ### 4️⃣ Dashboard Development
 Developed an interactive Power BI dashboard showcasing:
